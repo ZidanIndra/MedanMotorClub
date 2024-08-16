@@ -1,0 +1,143 @@
+/* Tambahkan margin antar item di navbar */
+.navbar-nav .nav-item+.nav-item {
+    margin-left: 15px;
+}
+
+/* Atur agar tombol search berada di kanan */
+.navbar .d-flex {
+    margin-left: auto;
+}
+
+/* Sidebar kecil di sebelah kiri */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #343a40;
+    padding-top: 60px;
+    /* space for the navbar */
+    z-index: 1000;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+.content-wrapper {
+    margin-left: 150px;
+    /* space for the sidebar */
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-divider {
+    border-top: 2px solid #dee2e6;
+    margin: 2rem 0;
+}
+
+/* Section Artikel */
+
+#artikel h2.section-title {
+    font-size: 2.5rem;
+    /* Mengubah ukuran font */
+    font-weight: bold;
+    /* Membuat teks lebih tebal */
+    color: #333;
+    /* Mengatur warna teks */
+    text-align: center;
+    /* Menyelaraskan teks ke tengah */
+    margin-top: 2rem;
+    /* Menambahkan margin atas */
+    margin-bottom: 1rem;
+    /* Menambahkan margin bawah */
+}
+
+
+#event h2.section-title {
+    font-size: 2.5rem;
+    /* Mengubah ukuran font */
+    font-weight: bold;
+    /* Membuat teks lebih tebal */
+    color: #333;
+    /* Mengatur warna teks */
+    text-align: center;
+    /* Menyelaraskan teks ke tengah */
+    margin-top: 2rem;
+    /* Menambahkan margin atas */
+    margin-bottom: 1rem;
+    /* Menambahkan margin bawah */
+}
+
+#galeri h2.section-title {
+    font-size: 2.5rem;
+    /* Mengubah ukuran font */
+    font-weight: bold;
+    /* Membuat teks lebih tebal */
+    color: #333;
+    /* Mengatur warna teks */
+    text-align: center;
+    /* Menyelaraskan teks ke tengah */
+    margin-top: 2rem;
+    /* Menambahkan margin atas */
+    margin-bottom: 1rem;
+    /* Menambahkan margin bawah */
+}
+
+#klien h2.section-title {
+    font-size: 2.5rem;
+    /* Mengubah ukuran font */
+    font-weight: bold;
+    /* Membuat teks lebih tebal */
+    color: #333;
+    /* Mengatur warna teks */
+    text-align: center;
+    /* Menyelaraskan teks ke tengah */
+    margin-top: 2rem;
+    /* Menambahkan margin atas */
+    margin-bottom: 1rem;
+    /* Menambahkan margin bawah */
+}
+
+#produk h2.section-title {
+    font-size: 2.5rem;
+    /* Mengubah ukuran font */
+    font-weight: bold;
+    /* Membuat teks lebih tebal */
+    color: #333;
+    /* Mengatur warna teks */
+    text-align: center;
+    /* Menyelaraskan teks ke tengah */
+    margin-top: 2rem;
+    /* Menambahkan margin atas */
+    margin-bottom: 1rem;
+    /* Menambahkan margin bawah */
+}
+
+
+#klien img {
+    border-radius: 5%;
+}
+
+
+
+
